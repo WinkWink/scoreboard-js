@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .timer {
+    background-color: black;
+    width: 300px;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: calc(45em / 16);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b244a;
+    height: calc(520em / 16);
+    width: calc(575em / 16);
+  }
+  .scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+  }
+  
+  .container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-div h3 {
+    color: #fff;
+    font-family: Verdana;
+    font-size: calc(36em / 16);
+    text-align: center;
+  }
+  
+  .num-house {
+    background-color: #000;
+    width: calc(155em / 16);
+    height: calc(120em / 16);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p.score {
+    color: #fff;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-size: calc(80em / 16);
+  }
+  
+  .point-adders {
+    display: flex;
+    justify-content: center;
+    gap: 0.8em;
+  }
+  
+  button.homePoints, button.guestPoints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    width: calc(45em / 16);
+    height: calc(45em / 16);
+    margin-top: 1em;
+    border-radius: 20%;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    background-color: transparent;
+  }
+  
+  button.homePoints:hover, button.guestPoints:hover {
+    width: calc(43em / 16);
+    height: calc(43em / 16);
+  }
+
+  .controls{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .controls button {
+      border: 2px white solid;
+      border-radius: 14%;
+      background-color: transparent;
+      color: white;
+      margin: 1em;
+  }
+
+  #pauseTimer{
+    display: none;
+  }
+
+  #startTimer{
+    display: none;
+  }
+  

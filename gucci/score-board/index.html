@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="timer">
+      <p id="min">00</p>
+      <p>:</p>
+      <p id="seconds">00</p>
+      <p>.</p>
+      <p id="milliseconds">00</p>
+    </div>
+    <div class="scores">
+      <div class="container-div">
+        <h3>HOME</h3>
+        <div class="num-house">
+          <p class="score" id="home"></p>
+        </div>
+        <div class="point-adders">
+          <button class="homePoints" id="home-one">+1</button>
+          <button class="homePoints" id="home-two">+2</button>
+          <button class="homePoints" id="home-three">+3</button>
+        </div>
+      </div>
+      <div class="container-div">
+        <h3>GUEST</h3>
+        <div class="num-house">
+          <p class="score" id="guest"></p>
+        </div>
+        <div class="point-adders">
+          <button class="guestPoints" id="guest-one">+1</button>
+          <button class="guestPoints" id="guest-two">+2</button>
+          <button class="guestPoints" id="guest-three">+3</button>
+        </div>
+      </div>
+    </div>
+    <div class="controls">
+        <button id="setTimer">Set Timer</button>
+        <button id="pauseTimer">Pause Time</button>
+        <button id="startTimer">Play Time</button>
+        <button id="clearScore">Clear Board</button>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="code.js"></script>
+</html>
